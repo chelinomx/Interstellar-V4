@@ -1,8 +1,8 @@
-import express from "express";
-import http from "node:http";
-import createBareServer from "@tomphttp/bare-server-node";
-import path from "node:path";
-import * as dotenv from "dotenv";
+const express = require("express");
+const http = require("http");
+const createBareServer = require("@tomphttp/bare-server-node");
+const path = require("path");
+const dotenv = require("dotenv");
 dotenv.config();
 
 const __dirname = process.cwd();
